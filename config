@@ -172,7 +172,16 @@ bar {
 }
 
 # Wallpaper setup
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-35019.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-35019.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-709446.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-736248.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-738722.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-738725.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-745778.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-745726.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-742826.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-741269.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallhaven-740220.jpg
 
 # Keyboard bindings
 #exec "setxkbmap -layout us,bg,gb"
@@ -182,6 +191,11 @@ bindsym Ctrl+Shift+2 exec --no-startup-id setxkbmap gb
 bindsym Ctrl+Shift+3 exec --no-startup-id setxkbmap bg -variant bas_phonetic
 
 # Lock screen
-exec --no-startup-id xautolock -time 3 -locker 'i3lock -i ~/Pictures/wallpapers/wallhaven-701380.png'
+#exec --no-startup-id xautolock -time 10 -locker 'i3lock -i ~/Pictures/wallpapers/wallhaven-701380.png'
 bindsym $mod+Ctrl+l exec i3lock -i ~/Pictures/wallpapers/wallhaven-701380.png
 
+# Open browser
+bindsym $mod+b exec firefox
+
+# Open Files
+bindsym $mod+Shift+f exec nautilus
